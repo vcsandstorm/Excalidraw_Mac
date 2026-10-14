@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d79ec"/>
+      <stop offset="1" stop-color="#5550c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <!-- macOS icon grid: 824px body centred in a 1024 canvas -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" filter="url(#shadow)"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sketchy rectangle -->
+    <path d="M252 288 C350 280 490 282 586 292 M248 296 C246 370 250 440 256 510 M258 506 C360 516 480 518 582 510 M580 286 C586 360 588 430 584 516" stroke-width="30"/>
+    <!-- sketchy ellipse -->
+    <path d="M740 590 C820 582 860 640 846 700 C832 766 756 800 696 780 C640 762 620 702 650 648 C674 606 722 588 780 598" stroke-width="30"/>
+    <!-- hand-drawn arrow -->
+    <path d="M410 532 C426 620 480 680 586 694" stroke-width="30"/>
+    <path d="M540 648 L592 696 L534 738" stroke-width="30"/>
+  </g>
+</svg>
